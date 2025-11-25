@@ -13,10 +13,7 @@ class Sorter:
         self.ulist[x], self.ulist[y] = self.ulist[y], self.ulist[x]
 
     def bubble_sort(self):
-        """
-        Complete this function to return the sorted array
-        using the bubble sort algorithm
-        """
+
         n = len(self.ulist)
         for i in range(n):
             for j in range(0, n-i-1):
@@ -31,4 +28,5 @@ def main():
     print("Sorted array is:", sorted_list)
 if __name__ == "__main__":
     main()
+
     
